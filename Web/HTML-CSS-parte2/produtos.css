@@ -1,0 +1,84 @@
+header{
+    background-color: gray;
+    padding: 20px 0;
+}
+
+.caixa{
+    position:relative;
+    width:940px;
+    margin: 0 auto;
+}
+
+
+
+nav{
+    position:absolute;
+    top:110px;
+    right:70px;
+}
+
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:#000000;
+    font-weight:bold;
+    font-size:22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.produtos li{
+    display:inline-block;
+    text-align: center;
+    width:20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color:red
+}
+
+.produtos li:active{
+    border-color:blue;
+}
+
+.produtos li:hover h2{
+    font-size:30px;
+}
+
+.produtos h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.produtos-descricao{
+    font-size:18px;
+}
+
+#motoca-footer{
+    width: 15%;
+}
+
+footer{
+    text-align: center;
+}
